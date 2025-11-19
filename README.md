@@ -52,6 +52,4 @@ Este archivo es una página web que determina la **constante de desintegración*
   - **Exportación:**
     - Genera y permite la descarga de archivos PNG o **CSV** personalizados.
 
----
 
-Esto resume la funcionalidad del archivo y su propósito dentro de tu proyecto. ¿Te gustaría que esto se transforme en un archivo `README.md`?# ACTIVIDAD-DE-SATURACION
