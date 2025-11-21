@@ -797,7 +797,7 @@
                                 <p>Una vez completados los datos, ve a la pestaña de "Análisis y Resultados" y pulsa el botón para calcular:</p>
                                 <ul style="margin-left: 20px; margin-top: 8px;">
                                     <li>La constante de desintegración (λ)</li>
-                                    <li>La semivida del isótopo</li>
+                                    <li>T1/2 del isótopo</li>
                                     <li>La actividad inicial A(0)</li>
                                     <li>La actividad de saturación As</li>
                                 </ul>
@@ -816,7 +816,7 @@
                             <h3 class="card-title">Ejecutar Análisis</h3>
                         </div>
                         <p style="margin: 15px 0 20px; color: var(--gray);">
-                            Al pulsar el botón, el sistema calculará la constante de desintegración (λ), la semivida, 
+                            Al pulsar el botón, el sistema calculará la constante de desintegración (λ), T1/2, 
                             la actividad inicial y la actividad de saturación utilizando los datos experimentales y parámetros definidos.
                         </p>
                         <div style="text-align: center;">
@@ -851,7 +851,7 @@
                             </div>
                             
                             <div class="result-card" style="background: linear-gradient(135deg, #ff9e6d 0%, #ff5400 100%);">
-                                <div class="result-label">Semivida T<sub>1/2</sub></div>
+                                <div class="result-label">T<sub>1/2</sub></div>
                                 <div class="result-value" id="halfLifeValue">-</div>
                                 <div class="result-unit">minutos</div>
                             </div>
@@ -1961,7 +1961,7 @@ Fila    Tiempo (min)    Cuentas    T. Contaje (min)    Actividad Neta (C/min)
                 csvContent += "Parámetro,Valor,Unidades\n";
                 csvContent += `Constante de desintegración (lambda),${lambdaValue},min^-1\n`;
                 csvContent += `Actividad inicial A(0),${a0},C/min\n`;
-                csvContent += `Semivida T1/2,${halfLife},minutos\n`;
+                csvContent += `T1/2,${halfLife},minutos\n`;
                 csvContent += `Actividad de saturación As,${saturationActivity},C/min\n`;
                 csvContent += `Factor de saturación A(0)/As,${saturationFactor},adimensional\n`;
                 csvContent += `Valor del fondo,${background},C/min\n`;
@@ -2048,4 +2048,5 @@ Fila    Tiempo (min)    Cuentas    T. Contaje (min)    Actividad Neta (C/min)
     </script>
 </body>
 </html>
+
 
